@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sr_latch_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sr_latch_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/sr_latch_tb/En">
+      <obj_property name="ElementShortName">En</obj_property>
+      <obj_property name="ObjectShortName">En</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/sr_latch_tb/S">
+      <obj_property name="ElementShortName">S</obj_property>
+      <obj_property name="ObjectShortName">S</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/sr_latch_tb/R">
+      <obj_property name="ElementShortName">R</obj_property>
+      <obj_property name="ObjectShortName">R</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/sr_latch_tb/Q">
+      <obj_property name="ElementShortName">Q</obj_property>
+      <obj_property name="ObjectShortName">Q</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/sr_latch_tb/notQ">
+      <obj_property name="ElementShortName">notQ</obj_property>
+      <obj_property name="ObjectShortName">notQ</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/sr_latch_tb/passed">
+      <obj_property name="ElementShortName">passed[7:0]</obj_property>
+      <obj_property name="ObjectShortName">passed[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/sr_latch_tb/uut/nandSEN">
+      <obj_property name="ElementShortName">nandSEN</obj_property>
+      <obj_property name="ObjectShortName">nandSEN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/sr_latch_tb/uut/nandREN">
+      <obj_property name="ElementShortName">nandREN</obj_property>
+      <obj_property name="ObjectShortName">nandREN</obj_property>
+   </wvobject>
+</wave_config>
